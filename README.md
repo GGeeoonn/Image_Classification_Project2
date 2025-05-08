@@ -14,7 +14,7 @@ All descriptor vectors from the training images are collected and clustered usin
 ### Histogram Representation
 Each image is converted into a histogram based on the frequency of visual words<br>
 Descriptors are assigned to the nearest cluster center, and the number of assignments to each cluster is counted<br>
-&nbsp;&nbsp;&nbsp; ● This results in a fixed-length feature vector representing the image (e.g., a 200-dimensional vector)<br>
+&nbsp;&nbsp;&nbsp; ● This results in a fixed-length feature vector representing the image (i.e., 200-dimensional vector)<br>
 The histogram vectors from training images are used to train classification models<br>
 
 ## ⬇ Installation
