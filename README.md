@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/27ebfc2c-15c9-46df-87f3-fdbf8e6c18a2)# Image Classification using Bag-of-Visual-Word
+# Image Classification using Bag-of-Visual-Word
 Compare the accuracy of SVM and Naive Bayes in image classification when using Bag-of-Visual-Word model.
 
 ## BoVW Image Classification Model
