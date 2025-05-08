@@ -3,19 +3,19 @@ Compare the accuracy of SVM and Naive Bayes in image classification when using B
 
 ## BoVW Image Classification Model
 ### Feature Extraction
-keypoints are detected from each image using the ORB (Oriented FAST and Rotated BRIEF)
-  ● ORB detects keypoints and describes to using a binary vector, ensuring fast to compute
-A descriptor vector is computed for each keypoint to represent local visual features
+keypoints are detected from each image using the ORB (Oriented FAST and Rotated BRIEF)<br>
+  ● ORB detects keypoints and describes to using a binary vector, ensuring fast to compute<br>
+A descriptor vector is computed for each keypoint to represent local visual features<br>
 
 ### Visual Vocabulary Construction
-All descriptor vectors from the training images are collected and clustered using the K-means algorithm
-  ● Each cluster center becomes a "visual word," forming a visual vocabulary (codebook) of fixed size
+All descriptor vectors from the training images are collected and clustered using the K-means algorithm<br>
+  ● Each cluster center becomes a "visual word," forming a visual vocabulary (codebook) of fixed size<br>
 
 ### Histogram Representation
-Each image is converted into a histogram based on the frequency of visual words
-Descriptors are assigned to the nearest cluster center, and the number of assignments to each cluster is counted
-  ● This results in a fixed-length feature vector representing the image (e.g., a 200-dimensional vector)
-The histogram vectors from training images are used to train classification models
+Each image is converted into a histogram based on the frequency of visual words<br>
+Descriptors are assigned to the nearest cluster center, and the number of assignments to each cluster is counted<br>
+  ● This results in a fixed-length feature vector representing the image (e.g., a 200-dimensional vector)<br>
+The histogram vectors from training images are used to train classification models<br>
 
 ## ⬇ Installation
 
